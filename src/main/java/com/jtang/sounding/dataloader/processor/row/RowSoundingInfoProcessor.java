@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Date;
 
 import com.jtang.sounding.dataloader.exception.DataProcessingException;
-import com.jtang.sounding.dataloader.helper.Row;
 import com.jtang.sounding.dataloader.processor.SoundingInfoProcessor;
 import com.jtang.sounding.domain.Sounding;
+import com.jtang.sounding.domain.helper.Row;
 
 public class RowSoundingInfoProcessor implements SoundingInfoProcessor<List<Row>> {
 

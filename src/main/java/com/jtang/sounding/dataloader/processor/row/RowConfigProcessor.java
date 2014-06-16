@@ -3,11 +3,11 @@ package com.jtang.sounding.dataloader.processor.row;
 import java.util.List;
 
 import com.jtang.sounding.dataloader.exception.DataProcessingException;
-import com.jtang.sounding.dataloader.helper.Row;
 import com.jtang.sounding.dataloader.processor.ConfigProcessor;
 import com.jtang.sounding.domain.config.FieldConfig;
 import com.jtang.sounding.domain.config.FieldConfigDefaults;
 import com.jtang.sounding.domain.config.ObservationConfig;
+import com.jtang.sounding.domain.helper.Row;
 import com.jtang.sounding.values.Field;
 import com.jtang.sounding.values.units.Unit;
 import com.jtang.sounding.values.exception.FieldException;
