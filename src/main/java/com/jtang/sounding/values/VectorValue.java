@@ -1,16 +1,16 @@
 package com.jtang.sounding.values;
 
-public class VectorValue<T extends Value> {
+public class VectorValue {
 	
-	private T magnitude;
+	private Value magnitude;
 	private Value angle;
 
-	public VectorValue(T magnitude, Value angle) {
+	public VectorValue(Value magnitude, Value angle) {
 		this.angle = angle;
 		this.magnitude = magnitude;
 	}
 
-	public T getMagnitude() {
+	public Value getMagnitude() {
 		return magnitude;
 	}
 

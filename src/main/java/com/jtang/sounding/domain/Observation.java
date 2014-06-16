@@ -6,7 +6,6 @@ import java.util.Map;
 import com.jtang.sounding.values.Field;
 import com.jtang.sounding.values.Value;
 
-
 public class Observation {
 	
 	private Map<Field, Value> fields;

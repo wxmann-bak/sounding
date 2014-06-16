@@ -12,15 +12,9 @@ public class Value implements Comparable<Value> {
 	Dimension dimension;
 
 	public Value(double value, Unit unit) {
-		// try {
 		this.value = value;
-		// UnitChecker.checkUnitDimension(unit, dimension);
 		this.unit = unit;
 		this.dimension = unit.getDimension();
-		// }
-		// catch (UnitException ex) {
-		// throw new ValueInstantiationException(ex);
-		// }
 	}
 
 	public double getValue() {

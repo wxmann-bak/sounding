@@ -11,7 +11,6 @@ import com.jtang.sounding.values.Value;
 import com.jtang.sounding.values.exception.UnitException;
 import com.jtang.sounding.values.utils.UnitChecker;
 
-
 public class Sounding {
 	
 	private Map<Value, Observation> observations;
